@@ -1,0 +1,28 @@
+{
+  "name": "local-transfer",
+  "version": "1.0.0",
+  "description": "Plain HTTP local file sender & receiver — no encryption, no friction. Any device on the LAN can send and every device sees the same received-files list, live.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "file-transfer",
+    "local",
+    "lan",
+    "sender",
+    "receiver",
+    "flask",
+    "no-crypt",
+    "localhost",
+    "glassmorphism"
+  ],
+  "author": "camzzz (https://github.com/cameleonnbss)",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "^3.5.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

@@ -1,0 +1,29 @@
+# Storage contents (uploaded files) — never commit
+Storage/*
+!Storage/.gitkeep
+
+# Logs json (auto-managed runtime state)
+Config/Logs.json
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Misc
+*.log
